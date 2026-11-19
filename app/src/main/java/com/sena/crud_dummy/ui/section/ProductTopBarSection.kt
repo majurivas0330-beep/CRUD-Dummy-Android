@@ -12,7 +12,7 @@ fun ProductTopBarSection(
     onRefresh: () -> Unit
 ) {
     TopAppBar(
-        title = { Text("Lista de Productos") },
+        title = { Text("Gestión de Productos") },
         actions = {
             TextButton(onClick = onRefresh) {
                 Text("Recargar")
